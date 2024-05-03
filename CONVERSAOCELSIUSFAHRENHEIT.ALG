@@ -1,17 +1,17 @@
 Algoritmo "ConversaoCelsiusFahrenheit"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este algoritmo converte temperaturas de graus Celsius para
+// DescriÃ§Ã£o   : Este algoritmo converte temperaturas de graus Celsius para
 // Fahrenheit, de 10 em 10 graus, iniciando em 10 graus Celsius e finalizando
 // em 100 graus Celsius.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    C, F: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    C <- 10
    enquanto C <= 100 faca
       F <- (9/5)*C + 32
