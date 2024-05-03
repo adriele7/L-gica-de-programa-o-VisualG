@@ -1,26 +1,26 @@
 Algoritmo "SomaQuadrados"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este programa lê três números para as variáveis A, B e C. Em
+// DescriÃ§Ã£o   : Este programa lÃª trÃªs nÃºmeros para as variÃ¡veis A, B e C. Em
 // seguida, ele calcula a soma dos quadrados de A, B e C e exibe o resultado.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A, B, C, RESULTADO: real
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Digite o valor para a variável A: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Digite o valor para a variÃ¡vel A: ")
    leia(A)
-   escreval("Digite o valor para a variável B: ")
+   escreval("Digite o valor para a variÃ¡vel B: ")
    leia(B)
-   escreval("Digite o valor para a variável C: ")
+   escreval("Digite o valor para a variÃ¡vel C: ")
    leia(C)
 
    RESULTADO <- A*A + B*B + C*C
 
-   escreval("A soma dos quadrados de A, B e C é: ", RESULTADO)
+   escreval("A soma dos quadrados de A, B e C Ã©: ", RESULTADO)
 
 Fimalgoritmo
