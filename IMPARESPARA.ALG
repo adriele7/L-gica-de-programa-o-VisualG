@@ -1,15 +1,15 @@
 Algoritmo "ImparesPara"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este algoritmo imprime todos os números ímpares de 0 a 20.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Este algoritmo imprime todos os nÃºmeros Ã­mpares de 0 a 20.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    I: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    para I de 0 ate 20 faca
       se I mod 2 <> 0 entao
          escreval(I)
