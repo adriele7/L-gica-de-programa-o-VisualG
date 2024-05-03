@@ -1,16 +1,16 @@
 Algoritmo "DivisiveisPor4Para"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este algoritmo imprime todos os números divisíveis por 4 que
-// são menores que 200.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Este algoritmo imprime todos os nÃºmeros divisÃ­veis por 4 que
+// sÃ£o menores que 200.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    I: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    para I de 1 ate 200 faca
       se I mod 4 = 0 entao
          escreval(I)
