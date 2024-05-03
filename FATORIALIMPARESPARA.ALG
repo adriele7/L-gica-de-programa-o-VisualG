@@ -1,23 +1,23 @@
 Algoritmo "FatorialImparesPara"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este algoritmo calcula o fatorial dos valores ímpares de 1 a
+// DescriÃ§Ã£o   : Este algoritmo calcula o fatorial dos valores Ã­mpares de 1 a
 // 10 e imprime os resultados.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Fatorial, I, J: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    para I de 1 ate 10 faca
       se I mod 2 <> 0 entao
          Fatorial <- 1
          para J de 1 ate I faca
             Fatorial <- Fatorial * J
          fimpara
-         escreval("O fatorial de ", I, " é: ", Fatorial)
+         escreval("O fatorial de ", I, " Ã©: ", Fatorial)
       fimse
    fimpara
 
