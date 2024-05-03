@@ -1,24 +1,24 @@
 Algoritmo "ModuloNumero"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : lê um número inteiro do usuário. Se o número for negativo, ele
-// multiplica o número por -1 para torná-lo positivo. Em seguida, ele exibe o
-// módulo (valor absoluto) do número.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : lÃª um nÃºmero inteiro do usuÃ¡rio. Se o nÃºmero for negativo, ele
+// multiplica o nÃºmero por -1 para tornÃ¡-lo positivo. Em seguida, ele exibe o
+// mÃ³dulo (valor absoluto) do nÃºmero.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    NUMERO: inteiro
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Digite um número inteiro (positivo ou negativo): ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Digite um nÃºmero inteiro (positivo ou negativo): ")
    leia(NUMERO)
 
    se NUMERO < 0 entao
       NUMERO <- NUMERO * -1
    fimse
 
-   escreval("O módulo do número fornecido é: ", NUMERO)
+   escreval("O mÃ³dulo do nÃºmero fornecido Ã©: ", NUMERO)
 Fimalgoritmo
