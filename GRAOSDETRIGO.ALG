@@ -1,18 +1,18 @@
 Algoritmo "GraosDeTrigo"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// DescriÁ„o   : calcula o total de gr„os de trigo que se pode obter num
-// tabuleiro de xadrez, obedecendo ‡ regra de que cada quadro tem o dobro de
-// gr„os do quadro anterior, e imprime o resultado.
-// Autor(a)    : Aline Aguiar da Silva
+// Descri√ß√£o   : calcula o total de gr√£os de trigo que se pode obter num
+// tabuleiro de xadrez, obedecendo √† regra de que cada quadro tem o dobro de
+// gr√£os do quadro anterior, e imprime o resultado.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    Graos, Total: real
    I: inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Graos <- 1
    Total <- 0
    I <- 1
@@ -21,6 +21,6 @@ Inicio
       Graos <- Graos * 2
       I <- I + 1
    ate I > 64
-   escreval("O total de gr„os de trigo È: ", Total)
+   escreval("O total de gr√£os de trigo √©: ", Total)
 
 Fimalgoritmo
