@@ -1,18 +1,18 @@
 Algoritmo "ValoresPositivos"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este algoritmo lê valores positivos até que um valor negativo
-// seja informado. Ele mantém o controle do maior e do menor valor informado
-// pelo usuário e, no final, apresenta esses valores.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Este algoritmo lÃª valores positivos atÃ© que um valor negativo
+// seja informado. Ele mantÃ©m o controle do maior e do menor valor informado
+// pelo usuÃ¡rio e, no final, apresenta esses valores.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Valor, Maior, Menor: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("Digite um valor positivo ou um valor negativo para parar: ")
    leia(Valor)
    Maior <- Valor
