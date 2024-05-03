@@ -1,19 +1,19 @@
-Algoritmo "MédiaEscolar"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "MÃ©diaEscolar"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : lê quatro notas de um aluno, calcula a média e verifica se o
-// aluno foi aprovado (se a média for maior ou igual a 5) ou não. Em seguida,
-// ele exibe uma mensagem indicando se o aluno foi aprovado ou não, junto com o
-// valor da média.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : lÃª quatro notas de um aluno, calcula a mÃ©dia e verifica se o
+// aluno foi aprovado (se a mÃ©dia for maior ou igual a 5) ou nÃ£o. Em seguida,
+// ele exibe uma mensagem indicando se o aluno foi aprovado ou nÃ£o, junto com o
+// valor da mÃ©dia.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    NOTA1, NOTA2, NOTA3, NOTA4, MEDIA: real
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("Digite a primeira nota: ")
    leia(NOTA1)
    escreval("Digite a segunda nota: ")
@@ -26,9 +26,9 @@ Inicio
    MEDIA <- (NOTA1 + NOTA2 + NOTA3 + NOTA4) / 4
 
    se MEDIA >= 5 entao
-      escreval("O aluno foi aprovado com média: ", MEDIA)
+      escreval("O aluno foi aprovado com mÃ©dia: ", MEDIA)
    senao
-      escreval("O aluno não foi aprovado. Média: ", MEDIA)
+      escreval("O aluno nÃ£o foi aprovado. MÃ©dia: ", MEDIA)
    fimse
 
 Fimalgoritmo
