@@ -1,25 +1,25 @@
 Algoritmo "verificaFaixa"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : solicita ao usuário que insira um valor. Em seguida, verifica
-// se o valor está na faixa de 1 a 9. Se estiver, exibe a mensagem
-// “O valor está na faixa permitida”. Caso contrário, exibe a mensagem
-// “O valor está fora da faixa permitida”.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : solicita ao usuÃ¡rio que insira um valor. Em seguida, verifica
+// se o valor estÃ¡ na faixa de 1 a 9. Se estiver, exibe a mensagem
+// â€œO valor estÃ¡ na faixa permitidaâ€. Caso contrÃ¡rio, exibe a mensagem
+// â€œO valor estÃ¡ fora da faixa permitidaâ€.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor: inteiro
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("Digite um valor:")
    leia(valor)
    se (valor >= 1) e (valor <= 9) entao
-      escreval("O valor está na faixa permitida.")
+      escreval("O valor estÃ¡ na faixa permitida.")
    senao
-      escreval("O valor está fora da faixa permitida.")
+      escreval("O valor estÃ¡ fora da faixa permitida.")
    fimse
 
 Fimalgoritmo
