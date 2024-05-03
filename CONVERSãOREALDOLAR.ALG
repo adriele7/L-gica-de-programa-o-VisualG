@@ -1,25 +1,25 @@
-Algoritmo "Convers„oRealDolar"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+Algoritmo "Convers√£oRealDolar"
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// DescriÁ„o   : solicita ao usu·rio que insira a cotaÁ„o do dÛlar e a
-// quantidade de reais que possui. Em seguida, ele calcula o valor em dÛlares
-// usando a fÛrmula fornecida e exibe o resultado.
-// Autor(a)    : Aline Aguiar da Silva
+// Descri√ß√£o   : solicita ao usu√°rio que insira a cota√ß√£o do d√≥lar e a
+// quantidade de reais que possui. Em seguida, ele calcula o valor em d√≥lares
+// usando a f√≥rmula fornecida e exibe o resultado.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    COTACAO, REAIS, DOLARES: real
 
 Inicio
 
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   escreval("Digite a cotaÁ„o do dÛlar: ")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   escreval("Digite a cota√ß√£o do d√≥lar: ")
    leia(COTACAO)
    escreval("Digite a quantidade de reais: ")
    leia(REAIS)
 
    DOLARES <- REAIS / COTACAO
 
-   escreval("O valor em dÛlares È: ", DOLARES)
+   escreval("O valor em d√≥lares √©: ", DOLARES)
 
 Fimalgoritmo
