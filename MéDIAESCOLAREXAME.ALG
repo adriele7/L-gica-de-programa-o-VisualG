@@ -1,21 +1,21 @@
-Algoritmo "MédiaEscolarExame"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "MÃ©diaEscolarExame"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : lê quatro notas de um aluno, calcula a média e verifica se o
-// aluno foi aprovado (se a média for maior ou igual a 7). Se a média for menor
-// que 7, ele solicita a nota do exame, calcula a nova média e verifica se o
-// aluno foi aprovado no exame (se a nova média for maior ou igual a 5). Em
-// seguida, ele exibe uma mensagem indicando se o aluno foi aprovado ou não,
-// junto com o valor da média ou da nova média.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : lÃª quatro notas de um aluno, calcula a mÃ©dia e verifica se o
+// aluno foi aprovado (se a mÃ©dia for maior ou igual a 7). Se a mÃ©dia for menor
+// que 7, ele solicita a nota do exame, calcula a nova mÃ©dia e verifica se o
+// aluno foi aprovado no exame (se a nova mÃ©dia for maior ou igual a 5). Em
+// seguida, ele exibe uma mensagem indicando se o aluno foi aprovado ou nÃ£o,
+// junto com o valor da mÃ©dia ou da nova mÃ©dia.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    NOTA1, NOTA2, NOTA3, NOTA4, MEDIA, NOTA_EXAME, NOVA_MEDIA: real
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("Digite a primeira nota: ")
    leia(NOTA1)
    escreval("Digite a segunda nota: ")
@@ -28,15 +28,15 @@ Inicio
    MEDIA <- (NOTA1 + NOTA2 + NOTA3 + NOTA4) / 4
 
    se MEDIA >= 7 entao
-      escreval("O aluno foi aprovado com média: ", MEDIA)
+      escreval("O aluno foi aprovado com mÃ©dia: ", MEDIA)
    senao
       escreval("Digite a nota do exame: ")
       leia(NOTA_EXAME)
       NOVA_MEDIA <- (MEDIA + NOTA_EXAME) / 2
       se NOVA_MEDIA >= 5 entao
-         escreval("O aluno foi aprovado no exame com média: ", NOVA_MEDIA)
+         escreval("O aluno foi aprovado no exame com mÃ©dia: ", NOVA_MEDIA)
       senao
-         escreval("O aluno não foi aprovado. Média: ", NOVA_MEDIA)
+         escreval("O aluno nÃ£o foi aprovado. MÃ©dia: ", NOVA_MEDIA)
       fimse
    fimse
 
