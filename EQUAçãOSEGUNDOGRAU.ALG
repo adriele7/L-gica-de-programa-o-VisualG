@@ -1,33 +1,33 @@
-Algoritmo "EquaçãoSegundoGrau"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "EquaÃ§Ã£oSegundoGrau"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : lê três números para as variáveis A, B e C. Em seguida, ele
-// calcula o delta e verifica se existem raízes reais para a equação. Se
-// existirem, ele calcula as raízes e exibe os resultados. Se não existirem
-// raízes reais, ele exibe uma mensagem informando isso.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : lÃª trÃªs nÃºmeros para as variÃ¡veis A, B e C. Em seguida, ele
+// calcula o delta e verifica se existem raÃ­zes reais para a equaÃ§Ã£o. Se
+// existirem, ele calcula as raÃ­zes e exibe os resultados. Se nÃ£o existirem
+// raÃ­zes reais, ele exibe uma mensagem informando isso.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A, B, C, DELTA, RAIZ1, RAIZ2: real
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Digite o valor para a variável A (diferente de zero): ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Digite o valor para a variÃ¡vel A (diferente de zero): ")
    leia(A)
-   escreval("Digite o valor para a variável B: ")
+   escreval("Digite o valor para a variÃ¡vel B: ")
    leia(B)
-   escreval("Digite o valor para a variável C: ")
+   escreval("Digite o valor para a variÃ¡vel C: ")
    leia(C)
 
    DELTA <- B*B - 4*A*C
 
    se DELTA < 0 entao
-      escreval("Não existem raízes reais para esta equação.")
+      escreval("NÃ£o existem raÃ­zes reais para esta equaÃ§Ã£o.")
    senao
       RAIZ1 <- (-B + raizq(DELTA)) / (2*A)
       RAIZ2 <- (-B - raizq(DELTA)) / (2*A)
-      escreval("As raízes da equação são: ", RAIZ1, " e ", RAIZ2)
+      escreval("As raÃ­zes da equaÃ§Ã£o sÃ£o: ", RAIZ1, " e ", RAIZ2)
    fimse
 Fimalgoritmo
