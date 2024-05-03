@@ -1,22 +1,22 @@
 Algoritmo "VolumeLata"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este algoritmo lê o raio e a altura de uma lata de óleo,
-// calcula o volume usando a fórmula 3.14159 * Raio * Raio * Altura e, em
+// DescriÃ§Ã£o   : Este algoritmo lÃª o raio e a altura de uma lata de Ã³leo,
+// calcula o volume usando a fÃ³rmula 3.14159 * Raio * Raio * Altura e, em
 // em seguida, imprime o resultado.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Raio, Altura, Volume: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Digite o raio da lata de óleo: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreva("Digite o raio da lata de Ã³leo: ")
    leia(Raio)
-   escreva("Digite a altura da lata de óleo: ")
+   escreva("Digite a altura da lata de Ã³leo: ")
    leia(Altura)
    Volume <- 3.14159 * Raio * Raio * Altura
-   escreva("O volume da lata de óleo é: ", Volume)
+   escreva("O volume da lata de Ã³leo Ã©: ", Volume)
 
 Fimalgoritmo
