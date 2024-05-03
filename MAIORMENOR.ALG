@@ -1,23 +1,23 @@
 Algoritmo "MaiorMenor"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : lê cinco números inteiros do usuário e identifica o maior e o
+// DescriÃ§Ã£o   : lÃª cinco nÃºmeros inteiros do usuÃ¡rio e identifica o maior e o
 // menor valor entre eles.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    NUM1, NUM2, NUM3, NUM4, NUM5, MAIOR, MENOR: inteiro
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Digite o primeiro número: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Digite o primeiro nÃºmero: ")
    leia(NUM1)
    MAIOR <- NUM1
    MENOR <- NUM1
 
-   escreval("Digite o segundo número: ")
+   escreval("Digite o segundo nÃºmero: ")
    leia(NUM2)
    se NUM2 > MAIOR entao
       MAIOR <- NUM2
@@ -26,7 +26,7 @@ Inicio
       MENOR <- NUM2
    fimse
 
-   escreval("Digite o terceiro número: ")
+   escreval("Digite o terceiro nÃºmero: ")
    leia(NUM3)
    se NUM3 > MAIOR entao
       MAIOR <- NUM3
@@ -35,7 +35,7 @@ Inicio
       MENOR <- NUM3
    fimse
 
-   escreval("Digite o quarto número: ")
+   escreval("Digite o quarto nÃºmero: ")
    leia(NUM4)
    se NUM4 > MAIOR entao
       MAIOR <- NUM4
@@ -44,7 +44,7 @@ Inicio
       MENOR <- NUM4
    fimse
 
-   escreval("Digite o quinto número: ")
+   escreval("Digite o quinto nÃºmero: ")
    leia(NUM5)
    se NUM5 > MAIOR entao
       MAIOR <- NUM5
@@ -53,7 +53,7 @@ Inicio
       MENOR <- NUM5
    fimse
 
-   escreval("O maior número é: ", MAIOR)
-   escreval("O menor número é: ", MENOR)
+   escreval("O maior nÃºmero Ã©: ", MAIOR)
+   escreval("O menor nÃºmero Ã©: ", MENOR)
    
 Fimalgoritmo
