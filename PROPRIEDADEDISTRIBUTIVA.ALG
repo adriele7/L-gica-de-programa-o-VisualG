@@ -1,26 +1,26 @@
 Algoritmo "PropriedadeDistributiva"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este programa lê quatro números inteiros para as variáveis A,
-// B, C e D. Em seguida, ele realiza seis operações de adição e seis operações
-// de multiplicação, utilizando a propriedade distributiva, e exibe os doze
+// DescriÃ§Ã£o   : Este programa lÃª quatro nÃºmeros inteiros para as variÃ¡veis A,
+// B, C e D. Em seguida, ele realiza seis operaÃ§Ãµes de adiÃ§Ã£o e seis operaÃ§Ãµes
+// de multiplicaÃ§Ã£o, utilizando a propriedade distributiva, e exibe os doze
 // resultados.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A, B, C, D: inteiro
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Digite o valor para a variável A: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Digite o valor para a variÃ¡vel A: ")
    leia(A)
-   escreval("Digite o valor para a variável B: ")
+   escreval("Digite o valor para a variÃ¡vel B: ")
    leia(B)
-   escreval("Digite o valor para a variável C: ")
+   escreval("Digite o valor para a variÃ¡vel C: ")
    leia(C)
-   escreval("Digite o valor para a variável D: ")
+   escreval("Digite o valor para a variÃ¡vel D: ")
    leia(D)
 
    escreval("A + B = ", A + B)
