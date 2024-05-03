@@ -1,23 +1,23 @@
 Algoritmo "OrdemCrescente"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : lê três números para as variáveis A, B e C. Em seguida, ele
-// usa uma série de comparações e trocas para ordenar os números em ordem
+// DescriÃ§Ã£o   : lÃª trÃªs nÃºmeros para as variÃ¡veis A, B e C. Em seguida, ele
+// usa uma sÃ©rie de comparaÃ§Ãµes e trocas para ordenar os nÃºmeros em ordem
 // crescente.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A, B, C, TEMP: real
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Digite o valor para a variável A: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Digite o valor para a variÃ¡vel A: ")
    leia(A)
-   escreval("Digite o valor para a variável B: ")
+   escreval("Digite o valor para a variÃ¡vel B: ")
    leia(B)
-   escreval("Digite o valor para a variável C: ")
+   escreval("Digite o valor para a variÃ¡vel C: ")
    leia(C)
 
    se A > B entao
@@ -38,6 +38,6 @@ Inicio
       C <- TEMP
    fimse
 
-   escreval("Os valores em ordem crescente são: ", A, ", ", B, ", ", C)
+   escreval("Os valores em ordem crescente sÃ£o: ", A, ", ", B, ", ", C)
 
 Fimalgoritmo
