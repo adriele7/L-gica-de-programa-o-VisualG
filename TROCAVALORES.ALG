@@ -1,25 +1,25 @@
 Algoritmo "TrocaValores"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// DescriÁ„o   : Este programa lÍ dois valores para as vari·veis A e B. Em
-// seguida, ele troca os valores de A e B usando uma vari·vel tempor·ria (TEMP).
-// Finalmente, ele exibe os valores de A e B apÛs a troca.
-// Autor(a)    : Aline Aguiar da Silva
+// Descri√ß√£o   : Este programa l√™ dois valores para as vari√°veis A e B. Em
+// seguida, ele troca os valores de A e B usando uma vari√°vel tempor√°ria (TEMP).
+// Finalmente, ele exibe os valores de A e B ap√≥s a troca.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    A, B, TEMP: real
 
 Inicio
 
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   escreval("Digite o valor para a vari·vel A: ")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   escreval("Digite o valor para a vari√°vel A: ")
    leia(A)
-   escreval("Digite o valor para a vari·vel B: ")
+   escreval("Digite o valor para a vari√°vel B: ")
    leia(B)
    TEMP <- A
    A <- B
    B <- TEMP
-   escreval("ApÛs a troca, o valor de A È: ", A)
-   escreval("ApÛs a troca, o valor de B È: ", B)
+   escreval("Ap√≥s a troca, o valor de A √©: ", A)
+   escreval("Ap√≥s a troca, o valor de B √©: ", B)
 Fimalgoritmo
