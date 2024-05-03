@@ -1,24 +1,24 @@
 Algoritmo "ParOuImpar"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : lê um número inteiro do usuário e verifica se o número é par
-// ou ímpar.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : lÃª um nÃºmero inteiro do usuÃ¡rio e verifica se o nÃºmero Ã© par
+// ou Ã­mpar.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    NUMERO: inteiro
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Digite um número inteiro: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Digite um nÃºmero inteiro: ")
    leia(NUMERO)
 
    se NUMERO mod 2 = 0 entao
-      escreval("O número ", NUMERO, " é par.")
+      escreval("O nÃºmero ", NUMERO, " Ã© par.")
    senao
-      escreval("O número ", NUMERO, " é ímpar.")
+      escreval("O nÃºmero ", NUMERO, " Ã© Ã­mpar.")
    fimse
 
 Fimalgoritmo
