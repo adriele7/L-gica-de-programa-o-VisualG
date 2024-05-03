@@ -1,24 +1,24 @@
 Algoritmo "QuadradoDiferenca"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este programa lê dois números inteiros para as variáveis A e B.
-// Em seguida, ele calcula o quadrado da diferença entre A e B e exibe o
+// DescriÃ§Ã£o   : Este programa lÃª dois nÃºmeros inteiros para as variÃ¡veis A e B.
+// Em seguida, ele calcula o quadrado da diferenÃ§a entre A e B e exibe o
 // resultado.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A, B, resultado: inteiro
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Digite o valor para a variável A: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Digite o valor para a variÃ¡vel A: ")
    leia(A)
-   escreval("Digite o valor para a variável B: ")
+   escreval("Digite o valor para a variÃ¡vel B: ")
    leia(B)
 
    resultado <- (A - B) * (A - B)
 
-   escreval("O quadrado da diferença entre A e B é: ", resultado)
+   escreval("O quadrado da diferenÃ§a entre A e B Ã©: ", resultado)
 Fimalgoritmo
