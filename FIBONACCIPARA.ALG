@@ -1,16 +1,16 @@
 Algoritmo "FibonacciPara"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este algoritmo imprime a série de Fibonacci até o décimo
+// DescriÃ§Ã£o   : Este algoritmo imprime a sÃ©rie de Fibonacci atÃ© o dÃ©cimo
 // quinto termo.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Termo1, Termo2, Proximo, I: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Termo1 <- 1
    Termo2 <- 1
    escreval(Termo1)
