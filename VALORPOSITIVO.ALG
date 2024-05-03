@@ -1,17 +1,17 @@
 Algoritmo "ValorPositivo"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   :  lê valores positivos até que um valor negativo seja informado,
-// calcula o somatório dos valores, a média aritmética e o total de valores
+// DescriÃ§Ã£o   :  lÃª valores positivos atÃ© que um valor negativo seja informado,
+// calcula o somatÃ³rio dos valores, a mÃ©dia aritmÃ©tica e o total de valores
 // lidos, e imprime os resultados.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Valor, Soma, Contador: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Soma <- 0
    Contador <- 0
    repita
@@ -23,9 +23,9 @@ Inicio
       fimse
    ate Valor < 0
    se Contador > 0 entao
-      escreval("O somatório dos valores é: ", Soma)
-      escreval("A média aritmética dos valores é: ", Soma/Contador)
-      escreval("O total de valores lidos é: ", Contador)
+      escreval("O somatÃ³rio dos valores Ã©: ", Soma)
+      escreval("A mÃ©dia aritmÃ©tica dos valores Ã©: ", Soma/Contador)
+      escreval("O total de valores lidos Ã©: ", Contador)
    senao
       escreval("Nenhum valor positivo foi lido.")
    fimse
