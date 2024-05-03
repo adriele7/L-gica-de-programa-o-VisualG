@@ -1,22 +1,22 @@
 Algoritmo "Soma100"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este algoritmo soma os primeiros 100 números inteiros e imprime
+// DescriÃ§Ã£o   : Este algoritmo soma os primeiros 100 nÃºmeros inteiros e imprime
 // o resultado.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Soma, I: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Soma <- 0
    I <- 1
    enquanto I <= 100 faca
       Soma <- Soma + I
       I <- I + 1
    fimenquanto
-   escreval("A soma dos primeiros 100 números inteiros é: ", Soma)
+   escreval("A soma dos primeiros 100 nÃºmeros inteiros Ã©: ", Soma)
    
 Fimalgoritmo
