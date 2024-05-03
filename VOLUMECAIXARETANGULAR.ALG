@@ -1,18 +1,18 @@
 Algoritmo "VolumeCaixaRetangular"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este programa lê o comprimento, a largura e a altura de uma
-// caixa retangular. Em seguida, ele calcula o volume da caixa usando a fórmula
+// DescriÃ§Ã£o   : Este programa lÃª o comprimento, a largura e a altura de uma
+// caixa retangular. Em seguida, ele calcula o volume da caixa usando a fÃ³rmula
 // fornecida e exibe o resultado.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    comprimento, largura, altura, volume: real
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("Digite o comprimento da caixa: ")
    leia(comprimento)
    escreval("Digite a largura da caixa: ")
@@ -22,5 +22,5 @@ Inicio
 
    volume <- comprimento * largura * altura
 
-   escreval("O volume da caixa retangular é: ", volume)
+   escreval("O volume da caixa retangular Ã©: ", volume)
 Fimalgoritmo
