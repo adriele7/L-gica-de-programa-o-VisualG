@@ -1,16 +1,16 @@
-Algoritmo "SomaDosNúmerosPares"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "SomaDosNÃºmerosPares"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : calcula a soma dos números pares de 1 a 500 e imprime o
+// DescriÃ§Ã£o   : calcula a soma dos nÃºmeros pares de 1 a 500 e imprime o
 // resultado.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Soma, I: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Soma <- 0
    I <- 1
    repita
@@ -19,6 +19,6 @@ Inicio
       fimse
       I <- I + 1
    ate I > 500
-   escreval("A soma dos números pares de 1 a 500 é: ", Soma)
+   escreval("A soma dos nÃºmeros pares de 1 a 500 Ã©: ", Soma)
 
 Fimalgoritmo
