@@ -1,17 +1,17 @@
 Algoritmo "Tabuada"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este algoritmo solicita ao usuário um número e imprime a
-// tabuada desse número de 1 a 10.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Este algoritmo solicita ao usuÃ¡rio um nÃºmero e imprime a
+// tabuada desse nÃºmero de 1 a 10.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    N, I: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Digite um número para ver sua tabuada: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Digite um nÃºmero para ver sua tabuada: ")
    leia(N)
    I <- 1
    enquanto I <= 10 faca
