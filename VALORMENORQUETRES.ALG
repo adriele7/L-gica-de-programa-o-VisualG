@@ -1,18 +1,18 @@
 Algoritmo "ValorMenorQueTres"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : lê um número do usuário e, se o número não for maior que três,
-// ele exibe o número. Se o número for maior que três, o programa não exibe
+// DescriÃ§Ã£o   : lÃª um nÃºmero do usuÃ¡rio e, se o nÃºmero nÃ£o for maior que trÃªs,
+// ele exibe o nÃºmero. Se o nÃºmero for maior que trÃªs, o programa nÃ£o exibe
 // nada.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 14/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    VALOR: inteiro
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("Digite um valor: ")
    leia(VALOR)
 
