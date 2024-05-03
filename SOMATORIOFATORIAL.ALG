@@ -1,21 +1,21 @@
 Algoritmo "SomatorioFatorial"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : lê 15 valores numéricos, calcula o somatório da fatorial de
+// DescriÃ§Ã£o   : lÃª 15 valores numÃ©ricos, calcula o somatÃ³rio da fatorial de
 // cada valor e imprime o resultado.
-// Autor(a)    : Aline Aguiar da Silva
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Valor, Fatorial, Soma: inteiro
    I, J: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Soma <- 0
    I <- 1
    repita
-      escreval("Digite o ", I, "º valor: ")
+      escreval("Digite o ", I, "Âº valor: ")
       leia(Valor)
       Fatorial <- 1
       para J de 1 ate Valor faca
@@ -24,6 +24,6 @@ Inicio
       Soma <- Soma + Fatorial
       I <- I + 1
    ate I > 15
-   escreval("O somatório da fatorial dos valores é: ", Soma)
+   escreval("O somatÃ³rio da fatorial dos valores Ã©: ", Soma)
 
 Fimalgoritmo
