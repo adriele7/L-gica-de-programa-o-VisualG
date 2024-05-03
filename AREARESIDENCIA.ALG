@@ -1,35 +1,35 @@
 Algoritmo "AreaResidencia"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Este algoritmo calcula a área total de uma residência. Ele
-// solicita ao usuário o nome, a largura e o comprimento de cada cômodo, calcula
-// a área do cômodo e pergunta se o usuário deseja continuar calculando novos
-// cômodos. Se o usuário responder “NAO”, o algoritmo apresenta a área total
-// acumulada da residência.
-// Autor(a)    : Aline Aguiar da Silva
+// DescriÃ§Ã£o   : Este algoritmo calcula a Ã¡rea total de uma residÃªncia. Ele
+// solicita ao usuÃ¡rio o nome, a largura e o comprimento de cada cÃ´modo, calcula
+// a Ã¡rea do cÃ´modo e pergunta se o usuÃ¡rio deseja continuar calculando novos
+// cÃ´modos. Se o usuÃ¡rio responder â€œNAOâ€, o algoritmo apresenta a Ã¡rea total
+// acumulada da residÃªncia.
+// Autor(a)    : Adriele Lima Santos
 // Data atual  : 15/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Nome, Continuar: caractere
    Largura, Comprimento, Area, AreaTotal: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    AreaTotal <- 0
    Continuar <- "SIM"
    enquanto Continuar = "SIM" faca
-      escreval("Digite o nome do cômodo: ")
+      escreval("Digite o nome do cÃ´modo: ")
       leia(Nome)
-      escreval("Digite a largura do cômodo: ")
+      escreval("Digite a largura do cÃ´modo: ")
       leia(Largura)
-      escreval("Digite o comprimento do cômodo: ")
+      escreval("Digite o comprimento do cÃ´modo: ")
       leia(Comprimento)
       Area <- Largura * Comprimento
-      escreval("A área do ", Nome, " é: ", Area)
+      escreval("A Ã¡rea do ", Nome, " Ã©: ", Area)
       AreaTotal <- AreaTotal + Area
-      escreval("Deseja continuar calculando novos cômodos? (SIM/NAO)")
+      escreval("Deseja continuar calculando novos cÃ´modos? (SIM/NAO)")
       leia(Continuar)
    fimenquanto
-   escreval("A área total da residência é: ", AreaTotal)
+   escreval("A Ã¡rea total da residÃªncia Ã©: ", AreaTotal)
 
 Fimalgoritmo
